@@ -1,0 +1,50 @@
+:root {
+    --bg: #171717;
+    --blue: #7E74F1;
+    --green: #27AE60;
+    --gray1: #171A1B;
+    --gray2: #202226;
+    --gray3: #2E2E32;
+    --gray4: #656D72;
+}
+
+p, span, h1 {
+    &::selection {
+        background-color: var(--blue);
+        color: black;
+    }
+}
+
+html, body {
+    background-color: #171717;
+    color: #fff;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--bg);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--blue);
+}

@@ -23,8 +23,8 @@ export function ProjectCard({ cover, project_name, description, technologies, gi
                 <span className="technologies">{technologies.map((tech) => (tech+', '))}</span>
 
                 <div className="buttons_container"> 
-                    <a href={gitLink}> <span>github</span> <IoIosArrowForward /> </a>
-                    <a href={prodLink}> <span>deploy</span> <IoIosArrowForward /> </a>
+                    <a href={gitLink} target="_blank"> <span>github</span> <IoIosArrowForward /> </a>
+                    <a href={prodLink} target="_blank"> <span>deploy</span> <IoIosArrowForward /> </a>
                 </div>
             </div>
         </StyledArticle>

@@ -2,6 +2,8 @@ import { Accordion } from "../../md/Accordion";
 import { Title } from "../../sm/Title";
 import { StyledSection } from "./styles";
 
+import { QA } from "../../../mocks/Q&A";
+
 export function FAQ(){
     return (
         <StyledSection id="about">
@@ -10,18 +12,12 @@ export function FAQ(){
                 emphasis="Sobre Mim"
             />
             <div className="FAQ_container">
-                <Accordion
-                    question="porque você escolheu a área da programação?"
-                    response=""
-                />
-                <Accordion
-                    question="Qual o seu maior sonho?"
-                    response=""
-                />
-                <Accordion
-                    question="Quais tecnologias você mais utiliza?"
-                    response=""
-                />
+                {QA.map((question) => (
+                    <Accordion
+                        question={question.question}
+                        response={question.answer}
+                    />
+                ))}
             </div>
         </StyledSection>
     )

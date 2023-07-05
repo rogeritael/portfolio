@@ -21,7 +21,7 @@ export function Accordion({ question, response }: AccordionProps){
                 <AiOutlinePlus />
             </button>
             <div className={isResponseOpen ? 'response' : 'closed response'}>
-                <p>Resposta... { response }</p>
+                <p>{ response }</p>
             </div>
         </StyledDiv>
     )

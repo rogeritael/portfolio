@@ -3,8 +3,8 @@ import { StyledSection } from "./styles";
 
 import browser_icon from '../../../assets/icons/browser_icon.svg';
 import { FiGithub } from 'react-icons/fi';
-import { AiOutlineInstagram } from 'react-icons/ai';
 import { SlSocialLinkedin } from 'react-icons/sl';
+import { HiOutlineMail } from "react-icons/hi";
 
 
 export function Cover(){
@@ -35,8 +35,8 @@ export function Cover(){
                     Proficiente em JavaScript, TypeScript, React e Node. Apaixonado pela minha profissão.
                 </p>
                 <div className="socials">
-                    <a href="https://www.instagram.com/rogerrosa_/" target="_blank">
-                        <AiOutlineInstagram className="insta" />
+                    <a href="mailto:rogerrosa.dev@gmail.com">
+                        <HiOutlineMail className="email"/>
                     </a>
                     <a href="https://github.com/rogeritael" target="_blank">
                         <FiGithub className="git" />

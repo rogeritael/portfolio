@@ -83,8 +83,8 @@ export const StyledSection = styled.section`
             .git:hover {
                 stroke: var(--gray3);
             }
-            .insta:hover {
-                fill: #E1306C;
+            .email:hover {
+                stroke: #c71610;
             }
             .linkedin:hover {
                 fill: #0e76a8;

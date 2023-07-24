@@ -12,9 +12,14 @@ interface ProjectCardProps {
 }
 
 export function ProjectCard({ cover, project_name, description, technologies, gitLink, prodLink, content_side }: ProjectCardProps){
+    
+    function redirect(){
+        window.open(prodLink, '_blank');
+    }
+    
     return(
         <StyledArticle content_side={content_side}>
-            <figure data-aos="zoom-out">
+            <figure data-aos="zoom-out" onClick={() => redirect()}>
                 <img src={cover} alt="cover do projeto em destaque" />
             </figure>
             <div className="informations" data-aos={content_side === 'left' ? "fade-right" : "fade-left"}>

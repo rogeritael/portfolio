@@ -15,6 +15,7 @@ export const StyledArticle = styled.article<StyledArticleProps>`
         height: 350px;
         overflow: hidden;
         border-radius: 20px;
+        cursor: pointer;
         
         ${props => props.content_side === 'left' && css`        
             order: 1;
@@ -22,7 +23,7 @@ export const StyledArticle = styled.article<StyledArticleProps>`
 
         &:hover {
             img {
-                scale: 1.1;
+                scale: 1.05;
             }
         }
 

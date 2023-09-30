@@ -31,7 +31,7 @@ export const StyledDiv = styled.div`
             margin-right: 8px;
             font-size: 14px;
         }
-        
+
         font-weight: normal;
     }
 

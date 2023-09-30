@@ -6,6 +6,8 @@ import { FiGithub } from 'react-icons/fi';
 import { SlSocialLinkedin } from 'react-icons/sl';
 import { HiOutlineMail } from "react-icons/hi";
 
+import foto from '../../../assets/foto.png'
+
 
 export function Cover(){
     const textRef = useRef<HTMLParagraphElement>(null);
@@ -46,7 +48,7 @@ export function Cover(){
                     </a>
                 </div>
             </div>
-            <div className="terminal">
+            {/* <div className="terminal">
                 <img src={browser_icon} alt="" className="browser_icon" />
                 <div className="terminal_header">
                     rogerrosa.com
@@ -64,7 +66,10 @@ export function Cover(){
                     <span>&#125;</span>
                 </h1>
                 </div>
-            </div>
+            </div> */}
+            <figure className="profile_image">
+                <img src={foto} />
+            </figure>
         </StyledSection>
     )
 }

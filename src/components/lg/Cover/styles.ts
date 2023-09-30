@@ -92,7 +92,21 @@ export const StyledSection = styled.section`
         }
     }
 
-    .terminal {
+    .profile_image {
+        width: 800px;
+        height: 400px;
+        margin-left: auto;
+        animation: ${fadeIn} 1000ms;
+        
+        img {
+            min-width: 600px;
+            object-fit: contain;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    /* .terminal {
         width: 100%;
         height: 100%;
         border-radius: 8px;
@@ -150,9 +164,18 @@ export const StyledSection = styled.section`
                 }
             }
         }
-    }
+    } */
 
     @media(max-width: 950px){
+        flex-direction: column;
+
+        .profile_image {
+            width: 100%;
+
+            img {
+                min-width: 200px;
+            }
+        }
         .terminal {
             display: none;
         }

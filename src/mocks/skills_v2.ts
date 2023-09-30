@@ -14,7 +14,7 @@ export const skills = [
     },
     {
         title: 'React',
-        bullets: ['React Router','Context API','Hooks', 'Componentização', 'Styled-components']
+        bullets: ['React Router','Context API','Hooks', 'Componentização', 'Styled-components', 'NextJs']
     },
     {
         title: 'Node',

@@ -3,7 +3,7 @@ import { Cover } from '../../components/lg/Cover';
 import { SkillsContainer } from '../../components/lg/SkillsContainer';
 import { Projects } from '../../components/lg/Projects';
 import { Footer } from '../../components/lg/Footer';
-import { FAQ } from '../../components/lg/FAQ';
+// import { FAQ } from '../../components/lg/FAQ';
 import { MobileMenu } from '../../components/lg/MobileMenu';
 import { useEffect, useState } from 'react';
 import Aos from 'aos'

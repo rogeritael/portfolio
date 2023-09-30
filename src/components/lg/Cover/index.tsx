@@ -1,7 +1,6 @@
 import { useEffect, useRef } from "react";
 import { StyledSection } from "./styles";
 
-import browser_icon from '../../../assets/icons/browser_icon.svg';
 import { FiGithub } from 'react-icons/fi';
 import { SlSocialLinkedin } from 'react-icons/sl';
 import { HiOutlineMail } from "react-icons/hi";

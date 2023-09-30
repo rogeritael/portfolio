@@ -2,7 +2,7 @@ import { Skill } from "../../sm/Skill";
 import { Title } from "../../sm/Title";
 import { StyledSection } from "./styles";
 
-import { skills } from "../../../mocks/skills";
+import { skills } from "../../../mocks/skills_v2";
 
 export function SkillsContainer(){
     return(
@@ -13,7 +13,7 @@ export function SkillsContainer(){
             />
             <div className="skills_container">
                 {skills.map((skill) => (
-                    <Skill skill_name={skill}/>
+                    <Skill skill_name={skill.title} bullets={skill.bullets} />
                 ))}
             </div>
         </StyledSection>

@@ -1,12 +1,29 @@
 import { StyledDiv } from "./styles";
 
-import skill_icon from '../../../assets/icons/skill_icon.svg'
+import { IoLogoCss3, IoLogoJavascript } from "react-icons/io";
+import { AiOutlineHtml5 } from 'react-icons/ai'
+import { BsFillDatabaseFill } from "react-icons/bs";
+import { BiLogoNodejs } from "react-icons/bi";
+import { FaReact } from "react-icons/fa";
 
-export function Skill( { skill_name }: { skill_name: string } ){
+export function Skill( { skill_name, bullets }: { skill_name: string, bullets: string[] } ){
+    
     return(
         <StyledDiv data-aos="fade-up">
-            <img src={skill_icon} alt="ícone de habilidade técnica" />
-            <p>{skill_name}</p>
+            <div className="header">
+                {skill_name === 'HTML' && <AiOutlineHtml5 />}
+                {skill_name === 'CSS' && <IoLogoCss3 />}
+                {skill_name === 'JavaScript' && <IoLogoJavascript />}
+                {skill_name === 'React' && <FaReact />}
+                {skill_name === 'Node' && <BiLogoNodejs />}
+                {skill_name === 'Banco de Dados' && <BsFillDatabaseFill />}
+                <p>{skill_name}</p>
+            </div>
+            <div className="description">
+                {bullets.map((bullet) => (
+                    <span>{bullet}, </span>
+                ))}
+            </div>
         </StyledDiv>
     )
 }

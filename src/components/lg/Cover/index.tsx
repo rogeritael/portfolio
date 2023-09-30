@@ -31,7 +31,7 @@ export function Cover(){
                 <span>Meu nome é</span>
                 <h1>Roger <span>Rosa</span></h1>
                 <p>
-                    Sou Desenvolvedor Web com +5 anos de experiência atuando na área da programação.
+                    Sou Desenvolvedor Web com +3 anos de experiência atuando na área da programação.
                     Proficiente em JavaScript, TypeScript, React e Node. Apaixonado pela minha profissão.
                 </p>
                 <div className="socials">

@@ -3,7 +3,7 @@ import { FormContainer } from "./styles";
 
 export function ContactForm(){
     return(
-        <FormContainer>
+        <FormContainer id="contact_form">
             <h2>Entre em contato para </h2>
             <h2 className="highlight">conversarmos melhor </h2>
             <form action="http://formsubmit.co/rogeritael.dev@gmail.com" method="POST">

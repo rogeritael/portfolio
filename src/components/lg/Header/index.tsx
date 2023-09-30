@@ -28,7 +28,7 @@ export function Header({ setIsMobileMenuOpen }: HeaderProps){
                     </li>
                 </ul>
             </nav>
-            <a className="contact_button" href="mailto:rogerrosa.dev@gmail.com">
+            <a className="contact_button" href="#contact_form">
                 Entre em contato
                 <BsArrowRight />
             </a>

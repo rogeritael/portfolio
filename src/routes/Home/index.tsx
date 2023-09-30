@@ -8,6 +8,7 @@ import { MobileMenu } from '../../components/lg/MobileMenu';
 import { useEffect, useState } from 'react';
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import { ContactForm } from '../../components/md/ContactForm';
 
 export function Home(){
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -25,7 +26,8 @@ export function Home(){
             <Cover />
             <SkillsContainer />
             <Projects />
-            <FAQ />
+            {/* <FAQ /> */}
+            <ContactForm />
             <Footer />
         </>
     )

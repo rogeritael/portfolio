@@ -7,8 +7,6 @@ import { SlSocialLinkedin } from 'react-icons/sl';
 export function Footer(){
     return(
         <StyledFooter>
-            <h2>Entre em <span>Contato</span></h2>
-            <p>Para conversarmos melhor...</p>
             <div className="socials">
                 <a href="mailto:rogerrosa.dev@gmail.com">
                     <HiOutlineMail />

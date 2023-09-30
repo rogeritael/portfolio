@@ -7,8 +7,8 @@ export const StyledFooter = styled.footer`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 44px;
-    gap: 12px;
+    padding: 24px;
+    /* gap: 12px; */
 
     h2 {
         font-size: 32px;

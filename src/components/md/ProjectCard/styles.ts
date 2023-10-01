@@ -7,7 +7,7 @@ interface StyledArticleProps {
 export const StyledArticle = styled.article<StyledArticleProps>`
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 24px;
     figure {
         min-width: 440px;
@@ -18,11 +18,11 @@ export const StyledArticle = styled.article<StyledArticleProps>`
         ${props => props.content_side === 'left' && css`        
             order: 1;
         `}
-        &:hover {
+        /* &:hover {
             img {
                 scale: 1.1;
             }
-        }
+        } */
         img {
             pointer-events: none;
             object-fit: cover;

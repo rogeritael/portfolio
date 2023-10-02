@@ -14,11 +14,11 @@ export function MobileMenu({ isMobileMenuOpen, setIsMobileMenuOpen }: MobileMenu
             <nav>
                 <span> <IoIosClose fill="#fff" onClick={() => setIsMobileMenuOpen(false)} /> </span>
 
-                <a href="#home">.home&#40; &#41;</a>
-                <a href="#skills">.habilidades&#40; &#41;</a>
-                <a href="#projects">.projetos&#40; &#41;</a>
-                <a href="#about">.sobreMim&#40; &#41;</a>
-                <a href="/">.contato&#40; &#41;</a>
+                <a href="#home" onClick={() => setIsMobileMenuOpen(false)}>.home&#40; &#41;</a>
+                <a href="#skills" onClick={() => setIsMobileMenuOpen(false)}>.habilidades&#40; &#41;</a>
+                <a href="#projects" onClick={() => setIsMobileMenuOpen(false)}>.projetos&#40; &#41;</a>
+                <a href="#about" onClick={() => setIsMobileMenuOpen(false)}>.sobreMim&#40; &#41;</a>
+                <a href="/" onClick={() => setIsMobileMenuOpen(false)}>.contato&#40; &#41;</a>
             </nav>
         </StyledSection>
     )

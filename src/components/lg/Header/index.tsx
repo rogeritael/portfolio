@@ -18,13 +18,13 @@ export function Header({ setIsMobileMenuOpen }: HeaderProps){
             <nav>
                 <ul className="menu">
                     <li>
+                        <a href="#">Inicio</a>
+                    </li>
+                    <li>
                         <a href="#skills">Habilidades</a>
                     </li>
                     <li>
                         <a href="#projects">Projetos</a>
-                    </li>
-                    <li>
-                        <a href="#about">Sobre mim</a>
                     </li>
                 </ul>
             </nav>

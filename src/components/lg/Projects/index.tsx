@@ -20,7 +20,7 @@ export function Projects(){
                         cover={project.cover}
                         description={project.description}
                         gitLink={project.gitLink}
-                        prodLink={project.gitLink}
+                        prodLink={project.prodLink}
                         content_side={project.content_side}
                     />
                 ))}

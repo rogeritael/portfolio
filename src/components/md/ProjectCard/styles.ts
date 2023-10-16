@@ -9,11 +9,13 @@ export const StyledArticle = styled.article<StyledArticleProps>`
     align-items: center;
     justify-content: center;
     gap: 24px;
+
     figure {
         min-width: 440px;
         height: 350px;
         overflow: hidden;
         border-radius: 20px;
+        cursor: pointer;
         
         ${props => props.content_side === 'left' && css`        
             order: 1;

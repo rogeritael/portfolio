@@ -32,10 +32,8 @@ export function ProjectCard({ cover, project_name, description, technologies, gi
 
         <StyledArticle content_side={content_side}>
 
-            <figure data-aos="zoom-out">
-
+            <figure data-aos="zoom-out" onClick={() => window.open(prodLink, '_blank')}>
                 <img src={cover} alt="cover do projeto em destaque" />
-
             </figure>
 
             <div className="informations" data-aos={content_side === 'left' ? "fade-right" : "fade-left"}>
@@ -51,9 +49,9 @@ export function ProjectCard({ cover, project_name, description, technologies, gi
 
                 <div className="buttons_container"> 
 
-                    <a href={gitLink}> <span>github</span> <IoIosArrowForward /> </a>
+                    <a href={gitLink} target="_blank"> <span>github</span> <IoIosArrowForward /> </a>
 
-                    <a href={prodLink}> <span>deploy</span> <IoIosArrowForward /> </a>
+                    <a href={prodLink} target="_blank"> <span>deploy</span> <IoIosArrowForward /> </a>
 
                 </div>
 

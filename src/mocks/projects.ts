@@ -36,7 +36,7 @@ export const projects = [
     {
         cover: loopstudios,
         project_name: 'Loop Studios Landing Page',
-        description: 'Plataforma gamer que notifica os usuários sobre anúncios e lançamentos de jogos, além de permitir que os usuários marquem interesse em jogos para receber atualizações.',
+        description: 'Landing page para empresa do nicho de desenvolvimento de experiências voltadas para realidade virtual.',
         technologies:  ['Next 13', 'TypeScript', 'Styled-Components', 'Hooks', 'Context API'],
         content_side: 'right',
         gitLink: 'https://github.com/rogeritael/loopstudios',
@@ -44,8 +44,8 @@ export const projects = [
     },
     {
         cover: skilled,
-        project_name: 'Skillet Landing Page',
-        description: 'Plataforma gamer que notifica os usuários sobre anúncios e lançamentos de jogos, além de permitir que os usuários marquem interesse em jogos para receber atualizações.',
+        project_name: 'Skilled Landing Page',
+        description: 'Landing page para plataforma que oferece treinamentos online para desenvolvimento profissional.',
         technologies:  ['Next 13', 'TypeScript', 'Styled-Components', 'Hooks', 'Context API'],
         content_side: 'left',
         gitLink: 'https://github.com/rogeritael/landing-page-skilled',
@@ -54,7 +54,7 @@ export const projects = [
     {
         cover: fylo,
         project_name: 'Fylo Landing Page',
-        description: 'Plataforma gamer que notifica os usuários sobre anúncios e lançamentos de jogos, além de permitir que os usuários marquem interesse em jogos para receber atualizações.',
+        description: 'Landing page para um site de serviços de armazenamento em nuvem e hospedagem de arquivos.',
         technologies:  ['Next 13', 'TypeScript', 'Styled-Components', 'Hooks', 'Context API'],
         content_side: 'right',
         gitLink: 'https://github.com/rogeritael/Fylo_landing_page',

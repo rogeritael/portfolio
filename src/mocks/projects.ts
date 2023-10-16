@@ -2,7 +2,8 @@
 // import pizzaria from '../assets/projects/pizza.svg'
 import quando_lanca from '../assets/projects/quando_lanca_mockup.png'
 import loopstudios from '../assets/projects/loopstudios.png'
-import skilled from '../assets/projects/skillet.png'
+import skilled from '../assets/projects/skilled.png'
+import fylo from '../assets/projects/fylo.png'
 
 export const projects = [
     // {
@@ -51,7 +52,7 @@ export const projects = [
         prodLink: 'https://landing-page-skilled.vercel.app/',
     },
     {
-        cover: skilled,
+        cover: fylo,
         project_name: 'Fylo Landing Page',
         description: 'Plataforma gamer que notifica os usuários sobre anúncios e lançamentos de jogos, além de permitir que os usuários marquem interesse em jogos para receber atualizações.',
         technologies:  ['Next 13', 'TypeScript', 'Styled-Components', 'Hooks', 'Context API'],

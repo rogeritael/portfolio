@@ -16,18 +16,15 @@ export const StyledArticle = styled.article<StyledArticleProps>`
         overflow: hidden;
         border-radius: 20px;
         cursor: pointer;
-        
+
         ${props => props.content_side === 'left' && css`        
             order: 1;
         `}
-        /* &:hover {
-            img {
-                scale: 1.1;
-            }
-        } */
+
         img {
             pointer-events: none;
             object-fit: cover;
+            background-position: left;
             width: 100%;
             height: 100%;
             transition: 500ms;

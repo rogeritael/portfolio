@@ -30,8 +30,8 @@ export const projects = [
         description: 'Plataforma gamer que notifica os usuários sobre anúncios e lançamentos de jogos, além de permitir que os usuários marquem interesse em jogos para receber atualizações.',
         technologies:  ['Next 13', 'TypeScript', 'Styled-Components', 'Hooks', 'Context API'],
         content_side: 'left',
-        gitLink: 'https://quando-laca-web.vercel.app/',
-        prodLink: 'https://quando-laca-web.vercel.app/',
+        gitLink: 'https://quandolanca.vercel.app/',
+        prodLink: 'https://quandolanca.vercel.app/',
     },
     {
         cover: loopstudios,

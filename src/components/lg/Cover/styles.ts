@@ -42,6 +42,7 @@ export const StyledSection = styled.section`
     padding: 48px;
     gap: 24px;
     align-items: center;
+    justify-content: space-between;
 
     .content {
         max-width: 540px;
@@ -93,11 +94,15 @@ export const StyledSection = styled.section`
     }
 
     .profile_image {
-        width: 800px;
+        /* width: 800px; */
         height: 400px;
+        width: 400px;
         margin-left: auto;
         animation: ${fadeIn} 1000ms;
-        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
         img {
             min-width: 600px;
             object-fit: contain;

@@ -39,8 +39,8 @@ export const projects = [
         description: 'Landing page para empresa do nicho de desenvolvimento de experiências voltadas para realidade virtual.',
         technologies:  ['Next 13', 'TypeScript', 'Styled-Components'],
         content_side: 'right',
-        gitLink: 'https://github.com/rogeritael/loopstudios',
-        prodLink: 'https://loopstudios-blue.vercel.app/',
+        gitLink: 'https://github.com/rogeritael/loopstudios-vr',
+        prodLink: 'https://loopstudios-experiences.vercel.app/',
     },
     {
         cover: skilled,

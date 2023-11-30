@@ -30,7 +30,11 @@ const router = createBrowserRouter([
     {
       path: '/automation',
       element: <Automation />
-  }]
+  },
+  {
+    path: '/automacao',
+    element: <Automation />
+}]
   }
 ])
 //react-router-dom

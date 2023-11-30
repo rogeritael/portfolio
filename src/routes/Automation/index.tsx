@@ -5,9 +5,10 @@ import { AutomationPage } from "./styles"
 export function Automation(){
 
     return(
-        <AutomationPage>
-            <Header />
-            <Cover />
-        </AutomationPage>
+        // <AutomationPage>
+        //     <Header />
+        //     <Cover />
+        // </AutomationPage>
+        <p>TESTE</p>
     )
 }

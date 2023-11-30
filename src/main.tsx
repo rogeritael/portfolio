@@ -12,6 +12,7 @@ import { ThankYou } from './routes/ThankYou'
 import {
   createBrowserRouter, RouterProvider
 } from 'react-router-dom';
+import { Automation } from './routes/Automation'
 
 const router = createBrowserRouter([
   {
@@ -25,7 +26,11 @@ const router = createBrowserRouter([
       {
         path: '/thankyou',
         element: <ThankYou />
-    }]
+    },
+    {
+      path: '/automation',
+      element: <Automation />
+  }]
   }
 ])
 //react-router-dom

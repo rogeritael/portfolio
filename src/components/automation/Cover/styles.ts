@@ -4,6 +4,7 @@ export const CoverContainer = styled.section`
     min-height: calc(100vh - 105px);
     display: flex;
     justify-content: center;
+    position: relative;
 
     .title_box{
         display: flex;
@@ -87,10 +88,23 @@ export const CoverContainer = styled.section`
 
         .title_box{
             margin-top: 0;
+            position: absolute;
+            bottom: 20px;
             
+            /* h1, p {
+                position: absolute;
+                top: 50vh;
+                transform: translateY(-50vh);
+            } */
+
             h1 {
-                font-size: 24px;
+                font-size: 32px;
                 width: 100%;
+                border: 1px solid red;
+            }
+
+            p {
+                border: 1px solid red;
             }
 
             .mobile_whatsapp {
@@ -104,7 +118,6 @@ export const CoverContainer = styled.section`
             }
 
             p {
-                font-size: 12px;
                 width: 95vw;
                 color: #fff;
                 opacity: 0.8;

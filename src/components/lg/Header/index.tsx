@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { StyledHeader } from "./styles";
 
 import { BsArrowRight, BsThreeDotsVertical } from 'react-icons/bs';
@@ -25,6 +26,9 @@ export function Header({ setIsMobileMenuOpen }: HeaderProps){
                     </li>
                     <li>
                         <a href="#projects">Projetos</a>
+                    </li>
+                    <li>
+                        <Link to="/automation">Automação</Link>
                     </li>
                 </ul>
             </nav>

@@ -5,6 +5,7 @@ import './global.css'
 import { Home } from './routes/Home'
 import { Pagina404 } from './routes/Pagina404'
 import { ThankYou } from './routes/ThankYou'
+import { Automation } from './routes/Automation'
 // import { Than } from './routes/Projetos/Topolinos'
 
 
@@ -12,7 +13,6 @@ import { ThankYou } from './routes/ThankYou'
 import {
   createBrowserRouter, RouterProvider
 } from 'react-router-dom';
-import { Automation } from './routes/Automation'
 
 const router = createBrowserRouter([
   {

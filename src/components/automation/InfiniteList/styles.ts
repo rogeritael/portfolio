@@ -17,6 +17,7 @@ export const InfiniteListContainer = styled.div`
     width: 100%;
     padding: 8px 20px;
     overflow: hidden;
+    z-index: 1;
 
     &::after {
         content: '';

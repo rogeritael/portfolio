@@ -1,12 +1,13 @@
 import { InfiniteListContainer } from "./styles";
 
 interface InfiniteListProps {
-    children: React.ReactNode
+    children: React.ReactNode,
+    className?: string
 }
 
-export function InfiniteList({ children }: InfiniteListProps){
+export function InfiniteList({ children, className }: InfiniteListProps){
     return(
-        <InfiniteListContainer>
+        <InfiniteListContainer className={`infinite_list ${className && className}`}>
             <div className="rail">
                 {children}{children}
             </div>

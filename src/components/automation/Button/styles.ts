@@ -14,4 +14,13 @@ export const ButtonComponent = styled.button `
         place-content: center;
         font-size: 14px;
     }
+
+    @media(max-width: 768px){
+        width: 320px;
+    }
+
+    @media(max-width: 425px){
+        height: 48px;
+        width: 280px;
+    }
 `

@@ -6,5 +6,7 @@ export const AutomationPage = styled.main`
     min-height: 100vh;
 
     /* POR CAUSA DO MENU FIXADO NO TOPO */
+    padding: 20px;
     padding-top: 105px;
+
 `
